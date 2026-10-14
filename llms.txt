@@ -1,0 +1,18 @@
+# SecureShare
+
+> SecureShare is a private file and text sharing service protected by one-time-password (OTP) verification and automatic expiration. Links expire on a schedule you choose, and shares can be limited to a single retrieval.
+
+## Core pages
+- [Home](https://secureshare.app/): Overview of SecureShare and the interactive sharing panel.
+- [Features](https://secureshare.app/features): OTP verification, expiring links, one-time access, QR sharing, password protection, cross-device retrieval.
+- [Security](https://secureshare.app/security): How protection works — OTPs, rate limiting, unguessable links, automatic deletion of expired content.
+- [FAQ](https://secureshare.app/faq): Answers about OTPs, expiry times, one-time access and accounts.
+- [Contact](https://secureshare.app/contact): Support, abuse reports and security disclosures.
+
+## Policies
+- [Privacy Policy](https://secureshare.app/privacy)
+- [Terms of Service](https://secureshare.app/terms)
+
+## Notes
+- The OTP shown in the on-site demo panel is generated in the browser for demonstration and is not a live security feature.
+- Shared content is deleted automatically when a share expires or reaches its access limit.

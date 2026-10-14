@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SecureShare — Share Anything. Securely. Instantly.</title>
+<meta name="description" content="Share files and text privately with OTP protection, expiring links and one-time access. No account required — create a protected share in seconds.">
+<link rel="canonical" href="https://secureshare.app/">
+<meta name="theme-color" content="#04050a">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SecureShare">
+<meta property="og:title" content="SecureShare — Share Anything. Securely. Instantly.">
+<meta property="og:description" content="Share files and text privately with OTP protection, expiring links and one-time access. No account required — create a protected share in seconds.">
+<meta property="og:url" content="https://secureshare.app/">
+<meta property="og:image" content="https://secureshare.app/assets/og-home.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="SecureShare — private file and text sharing protected by one-time passwords">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SecureShare — Share Anything. Securely. Instantly.">
+<meta name="twitter:description" content="Share files and text privately with OTP protection, expiring links and one-time access. No account required — create a protected share in seconds.">
+<meta name="twitter:image" content="https://secureshare.app/assets/og-home.png">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"SecureShare","url":"https://secureshare.app/","logo":"https://secureshare.app/assets/apple-touch-icon.png","description":"SecureShare is a private file and text sharing service protected by one-time-password verification and automatic expiration."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"SecureShare","url":"https://secureshare.app/","description":"Share files and text securely with OTP protection and expiring links."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"SecureShare","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","url":"https://secureshare.app/","description":"OTP-protected file and text sharing with automatic expiration, one-time access and optional password protection."}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<canvas id="stars" aria-hidden="true"></canvas>
+<div class="wrap">
+<header>
+  <div class="container nav">
+    <a class="brand" href="/">
+      <span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 8.6-8 10.5-4.6-1.9-8-5.5-8-10.5v-6L12 2z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      SecureShare
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="/" aria-current="page">Home</a><a href="/features">Features</a><a href="/security">Security</a><a href="/faq">FAQ</a><a href="/contact">Contact</a>
+      <a class="btn btn-primary btn-sm nav-cta" href="/#share">Start Sharing</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="#eef0ff" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+<main id="main"><!-- ================= HERO ================= -->
+<section class="hero container" id="top">
+  <div class="hero-grid">
+    <div>
+      <span class="pill"><span class="dot"></span>OTP-protected sharing</span>
+      <h1>Share Anything.<br><span class="accent">Securely.</span> Instantly.</h1>
+      <p class="sub">Experience the next generation of private file and text sharing, protected by one-time-password verification and automatic expiration.</p>
+      <div class="hero-cta">
+        <a href="#share" class="btn btn-primary">Start Sharing</a>
+        <a href="/features" class="btn btn-ghost">Explore Features</a>
+      </div>
+      <div class="hero-note">
+        <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><rect x="4" y="10" width="16" height="10" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 10V7a4 4 0 018 0v3" stroke="currentColor" stroke-width="1.6"/></svg>6-digit OTP</span>
+        <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Auto-expiring links</span>
+        <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>One-time access</span>
+      </div>
+    </div>
+
+    <div class="stage" aria-hidden="true">
+      <div class="stage-glow"></div>
+      <div class="orbit">
+        <div class="file-chip fc-1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8l-5-5z" stroke="#a259ff" stroke-width="1.5" stroke-linejoin="round"/><path d="M14 3v5h5" stroke="#a259ff" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+        <div class="file-chip fc-2"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="#3d8bff" stroke-width="1.5"/><circle cx="9" cy="10" r="2" stroke="#3d8bff" stroke-width="1.5"/><path d="M4 18l5-4 4 3 3-2 4 3" stroke="#3d8bff" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+        <div class="file-chip fc-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#a259ff" stroke-width="1.5"/><path d="M10 9l5 3-5 3V9z" fill="#a259ff"/></svg></div>
+        <div class="file-chip fc-4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="#3d8bff" stroke-width="1.5"/><path d="M8 8h8M8 12h8M8 16h5" stroke="#3d8bff" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+      </div>
+      <div class="shield">
+        <div class="face"></div>
+        <div class="face inner"></div>
+        <div class="lock">
+          <svg width="74" height="74" viewBox="0 0 24 24" fill="none"><rect x="5" y="10.5" width="14" height="10" rx="2.4" stroke="#fff" stroke-width="1.5"/><path d="M8.2 10.5V7.6a3.8 3.8 0 017.6 0v2.9" stroke="#fff" stroke-width="1.5"/><circle cx="12" cy="15" r="1.5" fill="#fff"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SHARE PANEL ================= -->
+<section class="section container" id="share">
+  <div class="section-head reveal">
+    <span class="section-label">Interactive Panel</span>
+    <h2>Share a file or a note in seconds</h2>
+    <p>Pick a file or drop in some text, add OTP protection, choose when it expires, and generate a protected link.</p>
+  </div>
+
+  <div class="panel-card reveal">
+    <div class="panel-left">
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-tab="file" role="tab">File</button>
+        <button class="tab" data-tab="text" role="tab">Text</button>
+      </div>
+
+      <div class="dropzone" id="dropzone">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 16V4m0 0L7 9m5-5l5 5" stroke="#d7ccff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2" stroke="#d7ccff" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h4 id="dzTitle">Drag &amp; drop your file here</h4>
+        <p id="dzSub">or click to browse — max 100&nbsp;MB</p>
+        <input type="file" id="fileInput" hidden>
+      </div>
+      <textarea class="filetext hidden" id="textArea" placeholder="Type or paste the text you want to share..."></textarea>
+
+      <div class="row-between">
+        <div class="lbl"><strong>OTP protection</strong><small>Require a one-time code to open</small></div>
+        <label class="switch"><input type="checkbox" id="otpToggle" checked><span class="slider"></span></label>
+      </div>
+
+      <div class="field">
+        <label for="expiry">Expires after</label>
+        <select id="expiry">
+          <option>5 minutes</option>
+          <option selected>1 hour</option>
+          <option>24 hours</option>
+          <option>7 days</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="pass">Password (optional)</label>
+        <input type="text" id="pass" placeholder="Add an extra layer of protection">
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn btn-primary" id="generateBtn">Generate Secure Share</button>
+      </div>
+      <p class="hint">Front-end demo — see the note below the panel.</p>
+    </div>
+
+    <div class="panel-right">
+      <div class="state on" id="stateIdle">
+        <p class="right-head">Preview</p>
+        <p class="empty-note">
+          &gt; nothing shared yet<br>
+          &gt; upload a file or add text,<br>
+          &gt; then generate a protected link.<br>
+          &gt; your OTP and share link<br>
+          &gt; will appear right here.
+        </p>
+      </div>
+
+      <div class="state" id="stateProgress">
+        <p class="right-head">Securing your content</p>
+        <div class="progress"><div class="bar" id="bar"></div></div>
+        <p class="progress-num" id="pct">0%</p>
+      </div>
+
+      <div class="state" id="stateDone">
+        <p class="right-head">Share created</p>
+        <div class="otp-box">
+          <small>One-time password</small>
+          <div class="otp-code" id="otpOut">------</div>
+        </div>
+        <div class="copy-row">
+          <span class="val" id="linkOut">https://secureshare.app/s/...</span>
+          <button class="copy-btn" data-copy="linkOut">Copy</button>
+        </div>
+        <div class="copy-row">
+          <span class="val" id="otpCopy">------</span>
+          <button class="copy-btn" data-copy="otpCopy">Copy</button>
+        </div>
+        <ul class="meta-list">
+          <li><span>Expires</span><span id="expOut">1 hour</span></li>
+          <li><span>Access</span><span id="accessOut">One-time</span></li>
+          <li><span>Password</span><span id="passOut">Off</span></li>
+        </ul>
+        <button class="btn btn-ghost btn-sm" id="resetBtn" style="width:100%">Create another</button>
+      </div>
+    </div>
+  </div>
+
+  <p class="hint reveal" style="text-align:left;max-width:900px;margin-top:22px">
+    Note: this page is the front-end only. The OTP shown here is generated in your browser for demonstration and is not a live security feature — a production build must generate and verify codes on the server (see the build notes).
+  </p>
+</section>
+
+<section class="section container" id="features">
+  <div class="section-head reveal">
+    <span class="section-label">Features</span>
+    <h2>Privacy-first sharing, end to end</h2>
+    <p>Every share is protected by verification, a short lifetime, and tight limits on who can retrieve it.</p>
+  </div>
+  <div class="features-grid">
+    <div class="f-card reveal"><div class="f-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2" stroke="#d7ccff" stroke-width="1.6"/><path d="M8 10V7a4 4 0 018 0v3" stroke="#d7ccff" stroke-width="1.6"/></svg></div><h3>Secure OTP Verification</h3><p>Recipients unlock content with a one-time code, so a leaked link alone is not enough.</p></div>
+    <div class="f-card reveal"><div class="f-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="#d7ccff" stroke-width="1.6"/><path d="M12 7v5l3 2" stroke="#d7ccff" stroke-width="1.6" stroke-linecap="round"/></svg></div><h3>Automatic Expiration</h3><p>Set a lifetime from minutes to days; content is removed automatically once it lapses.</p></div>
+    <div class="f-card reveal"><div class="f-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l8 3.5v6c0 5-3.4 8.6-8 10.5-4.6-1.9-8-5.5-8-10.5v-6L12 3z" stroke="#d7ccff" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="#d7ccff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>One-Time Access</h3><p>Burn the link after a single successful retrieval so content is seen exactly once.</p></div>
+    <div class="f-card reveal"><div class="f-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="8" cy="15" r="3.4" stroke="#d7ccff" stroke-width="1.6"/><path d="M10.4 12.6L19 4m-2 0h3v3" stroke="#d7ccff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Password Protection</h3><p>Layer a password on top of the OTP when you need an extra gate on sensitive content.</p></div>
+  </div>
+  <p style="margin-top:26px"><a class="btn btn-ghost btn-sm" href="/features">See all features</a></p>
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+<section class="section container" id="how">
+  <div class="section-head reveal">
+    <span class="section-label">How it works</span>
+    <h2>Four steps from upload to retrieval</h2>
+    <p>A straightforward flow that keeps the sender in control and the recipient verified.</p>
+  </div>
+  <div class="steps">
+    <div class="step reveal"><div class="num">01</div><h3>Upload or type</h3><p>Add a file or paste the text you want to share securely.</p></div>
+    <div class="step reveal"><div class="num">02</div><h3>Generate a link</h3><p>Get a protected share link plus a one-time password.</p></div>
+    <div class="step reveal"><div class="num">03</div><h3>Share it</h3><p>Send the link and the OTP to your recipient over separate channels.</p></div>
+    <div class="step reveal"><div class="num">04</div><h3>Retrieve safely</h3><p>The recipient unlocks the content before it expires.</p></div>
+  </div>
+</section>
+
+
+<section class="container" style="padding-bottom:96px">
+  <div class="cta-band reveal">
+    <div>
+      <h2>Ready to share something securely?</h2>
+      <p>Create a protected link with a one-time password in seconds — no account required.</p>
+    </div>
+    <a class="btn btn-primary" href="/#share">Start Sharing</a>
+  </div>
+</section>
+
+<!-- ================= TEAM ================= -->
+<section class="section container" id="team">
+  <div class="section-head reveal">
+    <span class="section-label">Credits</span>
+    <h2>The people behind SecureShare</h2>
+    <p>The idea, the build, and the design — meet the people who brought SecureShare to life.</p>
+  </div>
+  <div class="team-grid">
+    <div class="member reveal"><div class="avatar">SR</div><h3>Surya Roy</h3><p>Idea</p></div>
+    <div class="member reveal"><div class="avatar">SM</div><h3>Suman Mahata</h3><p>Developer</p></div>
+    <div class="member reveal"><div class="avatar">SC</div><h3>Sourav Chakraborty</h3><p>Founder</p></div>
+    <div class="member reveal"><div class="avatar">SR</div><h3>Sidhartha Roy</h3><p>Website Design</p></div>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="/">
+          <span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 8.6-8 10.5-4.6-1.9-8-5.5-8-10.5v-6L12 2z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          SecureShare
+        </a>
+        <p>Private file and text sharing, protected by one-time passwords and automatic expiration.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Product</h4>
+        <a href="/features">Features</a>
+        <a href="/security">Security</a>
+        <a href="/faq">FAQ</a>
+        <a href="/#how">How it works</a>
+      </div>
+      <div class="foot-col">
+        <h4>Legal</h4>
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Service</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="/contact">Contact us</a>
+        <a href="/contact">Support</a>
+        <a href="/contact">Report abuse</a>
+      </div>
+    </div>
+    <div class="credits">
+      <div><span class="role">Idea</span><span class="name">Surya Roy</span></div>
+      <div><span class="role">Developed by</span><span class="name">Suman Mahata</span></div>
+      <div><span class="role">Founder</span><span class="name">Sourav Chakraborty</span></div>
+      <div><span class="role">Website design</span><span class="name">Sidhartha Roy</span></div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 SecureShare. All rights reserved.</span>
+      <a href="/#top">Back to top</a>
+    </div>
+  </div>
+</footer>
+</div>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
